@@ -1,0 +1,28 @@
+
+account:
+    title: "Nouveau compte"
+    title_header: "Création d'un compte"
+    form:
+        name: "Nom"
+        email: "Email"
+        nickname: "Pseudo"
+    index:
+        games: "Ses jeux (%nb%)"
+    btn:
+        return_index: "Retour à la liste des comptes"
+    library:
+        edit: "Modifier"
+        installed: "Installé ?"
+        name: "Nom"
+        game_time: "Temps de jeu"
+        last_used: "Dernière utilisation"
+        total: "Total :"
+    edit:
+        return_account: "Retour au compte"
+        title: "Modifier compte"
+    delete: "Supprimer"
+    games:
+        name: "Nom"
+        year: "Année"
+        price: "Prix"
+        genre: "Genre"

@@ -1,0 +1,39 @@
+body {
+    background-color: lightgray;
+}
+
+.header, .footer {
+    background-color: #B0413E;
+    color: #e0e0e0;
+}
+
+.background-test {
+    background-color: #6E6E6E;
+}
+.pink {
+    color: #FF00FF;
+}
+.teal {
+    color: #00FFFF;
+}
+
+.green {
+    color: #30c918;
+}
+.red {
+    color: #c91414;
+}
+
+.fake-btn {
+    pointer-events: none;
+}
+
+.game-card {
+    > .card {
+        height: 430px;
+    }
+}
+
+.without-m {
+    padding-top: 0.4em;
+}

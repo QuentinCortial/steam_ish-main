@@ -1,0 +1,28 @@
+
+{% extends 'base.html.twig' %}
+
+{% trans_default_domain 'general' %}
+
+{% block title %}
+    {{ game.name }}
+{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+
+        {% include 'cards/_card_games.html.twig' %}
+
+        <div>
+            <div class="pagination">
+                {{ knp_pagination_render(comments) }}
+            </div>
+            <div>
+                {% for comment in comments %}
+                    {% include 'cards/_card_games_comments.html.twig' %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}
